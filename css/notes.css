@@ -1,0 +1,51 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .filter {
+    width: 100%;
+    margin: 22px;
+}
+
+.main .filter span{
+    color: white;
+    background: #6ea6ec;
+    border-radius: 4px;
+    margin-right: 4px;
+    padding: 4px;
+}
+
+.main .filter a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.main .note {
+    width: 100%;
+    background: white;
+    margin: 22px;
+    box-shadow: 0 0 25px #888888;
+}
+
+.main .note .content{
+    padding: 12px;
+}
+.main .note .title{
+    background: #eeeeee;
+    color: gray;
+    padding: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main .note .title span{
+    float: right;
+    color: white;
+    background: #6ea6ec;
+    border-radius: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}

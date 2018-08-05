@@ -1,0 +1,55 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .main-left {
+    padding: 12px;
+    width: 200px;
+    float: left;
+    background: #DDDDDD;
+}
+
+.main .main-left .title{
+    padding-top: 12px; 
+    padding-bottom: 8px;
+}
+
+.main .main-left .title:first-child{
+    padding-top: 0;
+}
+
+.main .main-left .title span{
+    float: right;
+}
+
+.main .main-left .content span{
+    float: right;
+}
+
+.main .main-left .content{
+}
+
+.main .main-left .content::before{
+    content: '';
+    color: #999999;
+}
+
+.main .main-right {
+    width: 824px;
+    padding: 12px;
+    float: right;
+    background: #EEEEEE;
+}
+
+.main .main-right div {
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-bottom: dashed 1px #DDDDDD;
+    margin-bottom: 4px;
+}
+
+
+.main .main-right span{
+    float: right;
+}

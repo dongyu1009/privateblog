@@ -1,0 +1,21 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .note {
+    width: 100%;
+    background: white;
+    margin: 22px;
+    box-shadow: 0 0 25px #888888;
+}
+
+.main .note .content{
+    padding: 12px;
+    width: 1000px;
+}
+
+.main .note .content .mainimage {
+    width: 1000px;
+
+}

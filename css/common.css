@@ -1,0 +1,33 @@
+body{
+       
+}
+
+.top {
+    height: 24px;
+    background: black;
+    width: 100%;
+}
+
+.top span {
+    display: block;
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    color: white;
+}
+
+.top .right {
+    float: right;
+}
+
+.top span a {
+    color: white;
+}
+
+
+.top span a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+

@@ -1,0 +1,48 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .section {
+    width: 100%;
+    background: white;
+    margin: 22px;
+    box-shadow: 0 0 25px #888888;
+}
+
+.main .section .title{
+    background: #eeeeee;
+    color: gray;
+    padding: 12px;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main .section .panels{
+    padding: 12px;
+    overflow: auto;
+}
+
+.main .section .panels .mpanel{
+    height: 200px;
+    width: 192px;
+    margin: 4px;
+    float: left;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover; 
+}
+.main .section .panels .mpanel .ptitle{
+    background: #eeeeee99;
+    color: gray;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 168px;
+}
+
+.main .section .content{
+    padding: 12px;
+}

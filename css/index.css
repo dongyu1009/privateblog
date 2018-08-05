@@ -1,0 +1,69 @@
+.main {
+    width: 100%;
+    position: absolute;
+    top: 24px; 
+    bottom: 0px;
+    left: 0px;
+}
+
+.main .maincontain{
+    background-image: url("../images/bg_main.png");
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.main .maincontain .block {
+    height: 25%;
+}
+
+.main .maincontain .content {
+    width:100%;
+    text-align: center;
+    color: white;
+}
+
+
+.main .maincontain .title {
+    font-size: 30px;
+}
+
+.main .maincontain .desc{
+    font-size: 20px;
+}
+
+.main .maincontain .mani button {
+    font-size: 18px;
+    background: #00a8df;
+    border-radius: 5px;
+    min-width: 160px;
+    height: 42px;
+    border: 0;
+}
+
+.main .maincontain .mani button:last-child {
+    background: #52cc00;
+}
+.main .maincontain .subdesc{
+
+}
+
+.main .maincontain .subdesc a {
+    color: white;
+}
+
+.main .maincontain .subdesc a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.main .maincontain .bottom {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+
+.main .maincontain .bottom {
+    color: gray;
+}

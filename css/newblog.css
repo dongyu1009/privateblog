@@ -1,0 +1,51 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .section {
+    width: 100%;
+    background: white;
+    margin: 22px;
+    box-shadow: 0 0 25px #888888;
+}
+
+.main .section .title{
+    background: #eeeeee;
+    color: gray;
+    padding: 12px;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main .section .pcontent{
+    margin: 24px;
+}
+
+.main .section .pcontent input {
+    display: inline-block;
+}
+
+.main .section .content{
+    padding: 12px;
+}
+
+#ititle{
+    width: 960px;
+    margin: 12px;
+}
+
+#icontent {
+    margin: 12px;
+    width: 960px;
+    min-height: 400px;
+}
+
+#itype {
+    margin: 12px;
+}
+.main .section .content .buttongroup{
+    width: 960px;
+    margin: 12px;
+}

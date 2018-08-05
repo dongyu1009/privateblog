@@ -1,0 +1,65 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+ 	
+	require_once('class/dao/UavmDocumentDAO.class.php');
+	require_once('class/dto/UavmDocument.class.php');
+	require_once('class/mysql/UavmDocumentMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmDocumentMySqlExtDAO.class.php');
+	require_once('class/dao/UavmModuleDAO.class.php');
+	require_once('class/dto/UavmModule.class.php');
+	require_once('class/mysql/UavmModuleMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmModuleMySqlExtDAO.class.php');
+	require_once('class/dao/UavmReportDAO.class.php');
+	require_once('class/dto/UavmReport.class.php');
+	require_once('class/mysql/UavmReportMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmReportMySqlExtDAO.class.php');
+	require_once('class/dao/UavmReportFileDAO.class.php');
+	require_once('class/dto/UavmReportFile.class.php');
+	require_once('class/mysql/UavmReportFileMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmReportFileMySqlExtDAO.class.php');
+	require_once('class/dao/UavmRightDAO.class.php');
+	require_once('class/dto/UavmRight.class.php');
+	require_once('class/mysql/UavmRightMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmRightMySqlExtDAO.class.php');
+	require_once('class/dao/UavmRoleDAO.class.php');
+	require_once('class/dto/UavmRole.class.php');
+	require_once('class/mysql/UavmRoleMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmRoleMySqlExtDAO.class.php');
+	require_once('class/dao/UavmRoleRightDAO.class.php');
+	require_once('class/dto/UavmRoleRight.class.php');
+	require_once('class/mysql/UavmRoleRightMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmRoleRightMySqlExtDAO.class.php');
+	require_once('class/dao/UavmTaskDAO.class.php');
+	require_once('class/dto/UavmTask.class.php');
+	require_once('class/mysql/UavmTaskMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmTaskMySqlExtDAO.class.php');
+	require_once('class/dao/UavmTaskFileDAO.class.php');
+	require_once('class/dto/UavmTaskFile.class.php');
+	require_once('class/mysql/UavmTaskFileMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmTaskFileMySqlExtDAO.class.php');
+	require_once('class/dao/UavmTopicDAO.class.php');
+	require_once('class/dto/UavmTopic.class.php');
+	require_once('class/mysql/UavmTopicMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmTopicMySqlExtDAO.class.php');
+	require_once('class/dao/UavmUserDAO.class.php');
+	require_once('class/dto/UavmUser.class.php');
+	require_once('class/mysql/UavmUserMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmUserMySqlExtDAO.class.php');
+	require_once('class/dao/UavmUserRoleDAO.class.php');
+	require_once('class/dto/UavmUserRole.class.php');
+	require_once('class/mysql/UavmUserRoleMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmUserRoleMySqlExtDAO.class.php');
+	require_once('class/dao/UavmUserTopicDAO.class.php');
+	require_once('class/dto/UavmUserTopic.class.php');
+	require_once('class/mysql/UavmUserTopicMySqlDAO.class.php');
+	require_once('class/mysql/ext/UavmUserTopicMySqlExtDAO.class.php');
+
+?>

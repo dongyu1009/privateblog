@@ -1,0 +1,108 @@
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main .main-left {
+    padding: 12px;
+    width: 260px;
+    float: left;
+    /*background: #DDDDDD;*/
+}
+
+.main .main-left .panel-null:first-child{
+    padding-top: 0;
+}
+
+.main .main-left .panel {
+    margin : 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 25px #666666;
+}
+
+.main .main-left .panel .title{
+    padding: 8px;
+    background: #ae2323;
+    margin: 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+.main .main-left .panel .title span{
+    float: right;
+}
+
+.main .main-left .panel .content{
+    margin: 10px;
+}
+
+.main .main-left .panel .content:last-child{
+    padding-bottom: 6px;
+}
+.main .main-left .panel .content span{
+    float: right;
+}
+
+
+.main .main-left .panel .content::before{
+    content: '';
+    color: #999999;
+}
+
+.main .main-right {
+    width: 720px;
+    padding: 12px;
+    float: right;
+    background: white;
+    margin: 22px;
+    box-shadow: 0 0 25px #888888;
+}
+
+.main .main-right .title {
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-bottom: dashed 1px #DDDDDD;
+    margin-bottom: 4px;
+}
+.main .main-right .title .label {
+    background: #59a3ff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    font-size: 8px;
+    display: block;
+    float: left;
+    margin-right: 4px;
+    color: white;
+}
+
+
+.main .main-right .title .time{
+    float: right;
+}
+
+.main .main-right .pictureadd form input{
+    display: inline-block;
+}
+
+.main .main-right .pictures {
+    /*background: red;*/
+    overflow: auto;
+}
+
+.main .main-right .pictures .picture{
+    height: 130px;
+    width: 130px;
+    margin: 4px;
+    float: left;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover; 
+}
+
+.main .main-right .content {
+
+}
